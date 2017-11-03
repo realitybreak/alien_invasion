@@ -3,6 +3,13 @@ class Settings():
 
     def __init__(self):
         """initialize the game's settings."""
+
+        # Bullet settings.
+        self.bullet_speed_factor = 1
+        self.bullet_width = 3
+        self.bullet_height = 15
+        self.bullet_color = 60, 60, 60
+
         # Screen settings
         self.screen_width = 1200
         self.screen_heigth = 800
